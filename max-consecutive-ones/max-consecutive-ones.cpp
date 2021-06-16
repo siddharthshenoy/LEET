@@ -11,18 +11,13 @@ public:
             {   
                 n++;
             }
-            else 
+            else
             {   
                 b.push_back(n);
                 n=0;
-                continue;
             }
         }
         int c= *max_element(b.begin(),b.end());
-        cout << "Vector: ";
-    for (int i = 0; i < b.size(); i++)
-        cout << b[i] << " ";
-    cout << endl;
         return c;
     }
 };
