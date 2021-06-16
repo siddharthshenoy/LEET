@@ -7,7 +7,7 @@ public:
             while(n!=0)
             {
             if ( n&1==1)
-             a = a*x;
+            a = a*x;
             x= x*x;
             n= n/2;
             }
@@ -16,7 +16,7 @@ public:
         {   while(n!=0)
             {
             if ( n&1==1)
-             a = a/x;
+            a = a/x;
             x= x*x;
             n= n/2;
             }
